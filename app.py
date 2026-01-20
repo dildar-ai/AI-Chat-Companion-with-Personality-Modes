@@ -12,10 +12,7 @@ st.title("🤖 AI Chat Companion")
 # -----------------------------
 st.sidebar.header("🔑 Configuration")
 
-groq_api_key = st.sidebar.text_input(
-    "Enter Groq API Key",
-    type="password"
-)
+groq_api_key = "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"
 
 personality = st.sidebar.selectbox(
     "Choose Personality",
